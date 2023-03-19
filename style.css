@@ -43,7 +43,7 @@
                     }
                 }
                 
-                @media screen and (max-width:574px) {
+                @media screen and (max-width:576px) {
                     .bottom-header {
                         display: block !important;
                         padding: 18px !important;
@@ -60,18 +60,65 @@
                     }
                 }
                 
-                @media screen and (min-width: 575px) {
+                @media screen and (min-width: 576px) {
                     header {
-                        display: flex;
-                        justify-content: space-around;
-                        align-items: baseline;
+                        display: flex !important;
+                        justify-content: space-around !important;
+                        align-items: baseline !important;
                     }
                     .middle-header {
                         padding: 0 !important;
                     }
                     .max-right {
-                        margin-left: 9px;
+                        margin-left: 9px !important;
                     }
                 }
                 
-                @media screen and (min-width:768px) {}
+                @media screen and (min-width:768px) {
+                    header {
+                        display: flex !important;
+                        justify-content: center !important;
+                    }
+                    .right-header {
+                        margin-left: -6px !important;
+                    }
+                    .main-search-style {
+                        width: 167px !important;
+                        height: 48px !important;
+                        padding-left: 31px !important;
+                    }
+                    .max-right {
+                        margin-left: 16px !important;
+                    }
+                    .login-signup {
+                        width: 109px !important;
+                        padding: 0px !important;
+                    }
+                    .left-header {
+                        margin-left: -30px !important;
+                    }
+                    .bottom-header {
+                        margin-left: 10px;
+                    }
+                    .left-header img {
+                        padding-left: 23px !important;
+                    }
+                }
+                
+                @media screen and (min-width:992px) {
+                    header {
+                        justify-content: space-between !important;
+                    }
+                    .middle-header {
+                        margin-left: 120px;
+                    }
+                    .bottom-header {
+                        margin-right: 20px;
+                    }
+                }
+                
+                @media screen and (min-width:1200px) {
+                    .middle-header {
+                        margin-left: 250px !important;
+                    }
+                }
